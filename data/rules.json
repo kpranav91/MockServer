@@ -1,0 +1,31 @@
+[
+    {
+        "route":"employees",
+        "rules":{
+            "methods":{
+                "GET":{
+                    "status":200                
+                },
+                "POST":{
+                    "status":200
+                }
+            }
+        }
+    },
+    {
+        "route":"members",
+        "rules":{
+            "methods":{
+                "GET":{
+                    "status":200
+                },
+                "POST":{
+                    "status":200,
+                    "message":{
+                        "status":"something went wrong !"
+                    }
+                }
+            }
+        }
+    }
+]

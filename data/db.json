@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "id": 1,
+      "firstname": "Pranav",
+      "lastname": "K",
+      "department": "IT",
+      "gender": "M"
+    },
+    {
+      "id": 2,
+      "firstname": "Atul",
+      "lastname": "N",
+      "department": "IT",
+      "gender": "M"
+    },
+    {
+      "firstname": "Sushant",
+      "lastname": "M",
+      "department": "IT",
+      "gender": "M",
+      "id": 3
+    },
+    {
+      "firstname": "Avadhesh",
+      "lastname": "P",
+      "department": "IT",
+      "gender": "M",
+      "id": 4
+    }
+  ]
+}
