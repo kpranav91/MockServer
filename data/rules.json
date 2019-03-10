@@ -1,30 +1,40 @@
 [
     {
-        "route":"employees",
-        "rules":{
-            "methods":{
-                "GET":{
-                    "status":200                
+        "route": "employees",
+        "rules": {
+            "methods": {
+                "GET": {
+                    "status": 200,
+                    "message": {
+                        "data": [
+                            {
+                                "firstname": "Atharva",
+                                "lastname": "K",
+                                "department": "IT",
+                                "gender": "M",
+                                "id": 1
+                            },
+                            {
+                                "firstname": "Aditya",
+                                "lastname": "K",
+                                "department": "IT",
+                                "gender": "M",
+                                "id": 2
+                            }
+                        ]
+                    },
+                    "responseFile": "emp_get.json"
                 },
-                "POST":{
-                    "status":200
+                "POST": {
+                    "status": 200
                 }
             }
         }
     },
     {
-        "route":"members",
-        "rules":{
-            "methods":{
-                "GET":{
-                    "status":200
-                },
-                "POST":{
-                    "status":200,
-                    "message":{
-                        "status":"something went wrong !"
-                    }
-                }
+        "route": "members",
+        "rules": {
+            "methods": {
             }
         }
     }

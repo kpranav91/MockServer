@@ -18,32 +18,26 @@
   },
   "employees": [
     {
-      "id": 1,
       "firstname": "Pranav",
       "lastname": "K",
       "department": "IT",
-      "gender": "M"
-    },
-    {
-      "id": 2,
-      "firstname": "Atul",
-      "lastname": "N",
-      "department": "IT",
-      "gender": "M"
-    },
-    {
-      "firstname": "Sushant",
-      "lastname": "M",
-      "department": "IT",
       "gender": "M",
-      "id": 3
+      "id": 1
     },
     {
       "firstname": "Avadhesh",
       "lastname": "P",
       "department": "IT",
       "gender": "M",
-      "id": 4
+      "id": 2
+    },
+    {
+      "firstname": "Atul",
+      "lastname": "N",
+      "department": "IT",
+      "gender": "M",
+      "id": 3
     }
-  ]
+  ],
+  "members": []
 }

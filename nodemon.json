@@ -1,5 +1,6 @@
 {
     "restartable": "rs",
+    "delay":"2500",
     "ignore": [
       ".git",
       "node_modules/**/node_modules"
@@ -13,6 +14,7 @@
     },
     "watch": [
       "data/*.json",
+      "data/*.txt",
       "index.js"
     ],
     "env": {
